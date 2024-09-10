@@ -1,0 +1,60 @@
+.house-list {
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .house-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .house-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .house-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .house-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .house-info {
+  height: 30px;   
+  width: 30px;
+
+  }
+  
+  .house-info h2 {
+    font-size: 1.2em;
+  }
+  
+  .house-info p {
+    margin: 4px 0;
+    padding-right: 20px;
+    text-align: left;
+  }
+  
+  .house-info p:first-of-type {
+    color: #777;
+    font-size: 0.9em;
+  }
+  .search-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }

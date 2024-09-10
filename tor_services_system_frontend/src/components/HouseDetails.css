@@ -1,0 +1,90 @@
+.house-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.house-main-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.house-image-carousel {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns */
+  gap: 10px; /* Spacing between images */
+  width: 60%;
+  margin-right: 20px;
+}
+
+.house-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.house-image.small {
+  width: 100%;
+  height: 100%; /* Ensure images fill their space */
+  object-fit: cover;
+}
+
+.house-image.large {
+  grid-column: 2; /* Span the second column */
+  grid-row: span 2; /* Span both rows */
+}
+
+.house-contact-form {
+  width: 35%;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.house-contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.house-contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.house-contact-form label {
+  margin-bottom: 10px;
+}
+
+.house-contact-form input,
+.house-contact-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.house-contact-form button {
+  padding: 10px;
+  background-color: #4a9f03;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.house-contact-form button:hover {
+  background-color: #359204;
+}
+
+.house-info {
+  text-align: left;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 1200px;
+}

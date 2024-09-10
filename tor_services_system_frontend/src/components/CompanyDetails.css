@@ -1,0 +1,31 @@
+.company-details {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .company-details h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .company-details section {
+    margin-bottom: 30px;
+  }
+  
+  .company-details h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .company-details p, .company-details ul {
+    color: #34495e;
+    line-height: 1.6;
+  }
+  
+  .company-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  

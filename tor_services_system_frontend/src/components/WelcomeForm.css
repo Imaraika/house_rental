@@ -1,0 +1,60 @@
+.welcome-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 70%;
+    transform: translateY(-50%);
+    height: 60vh;
+    z-index: 10; /* Ensure it’s above other elements */
+  }
+  .welcome-form h2 {
+    margin-top: 50px;
+    color: #333;
+  }
+  
+  .welcome-form p {
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    width:50%; /* Make the buttons take the full width */
+    gap: 10px; /* Space between the buttons */
+  }
+  
+  .form-button {
+    flex: 1; /* Ensure buttons take up equal space */
+    padding: 10px 20px;
+    color: #fff;
+    background-color: rgb(255, 111, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 11; /* Ensure buttons are above other elements */
+
+  }
+  
+  .form-button.register {
+    background-color: #d19a0e;
+  }
+  
+  .form-button:hover {
+    background-color:rebeccapurple; /* Hover effect for buttons */
+  }
+  
+  .form-button.register:hover {
+    background-color: rebeccapurple /* Hover effect for the register button */
+  }
+  
