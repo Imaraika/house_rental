@@ -1,0 +1,17 @@
+.final-confirmation {
+    padding: 20px;
+  }
+  
+  .payment-details {
+    margin-top: 20px;
+  }
+  
+  .payment-details label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .payment-details button {
+    margin-top: 20px;
+  }
+  

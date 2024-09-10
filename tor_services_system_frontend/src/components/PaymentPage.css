@@ -1,0 +1,17 @@
+.payment-page {
+    padding: 20px;
+  }
+  
+  .payment-methods {
+    margin-top: 20px;
+  }
+  
+  .payment-methods label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .payment-methods button {
+    margin-top: 20px;
+  }
+  
